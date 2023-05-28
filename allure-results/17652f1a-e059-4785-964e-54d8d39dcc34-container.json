@@ -1,0 +1,1 @@
+{"uuid":"17652f1a-e059-4785-964e-54d8d39dcc34","name":"Utills.ChromeRunner.setUp","children":["1bdb0142-c77d-47e3-8173-d73396a021f3"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1685216871940,"stop":1685216886538}],"afters":[],"start":1685216871938,"stop":1685216886540}
