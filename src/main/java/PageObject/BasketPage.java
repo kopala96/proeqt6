@@ -18,5 +18,8 @@ public class BasketPage {
     checkMarkBtn2 = $(".basket_check_column",1),
      clearBasket = $("#clear-basket-button"),
     yesBtn = $(".confirm_button"),
-    emptyBasket = $(byText("თქვენი კალათა ცარიელია"));
+    emptyBasket = $(byText("თქვენი კალათა ცარიელია")),
+    stringPricel = $(".basket_unit_price_column ", 1),
+    stringCountl = $(".basket_dropdown_quantity"),
+    stringSumm = $("#cart-ordertotal");
 }

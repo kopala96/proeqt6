@@ -81,10 +81,9 @@ public class BasketPageSteps extends BasketPage {
     public BasketPageSteps BasketCountPrice(){
         countAddBtn.click();
         sleep(7000);
-        String priceL = $(".basket_unit_price_column ", 1).getText().replaceAll("[^\\d.]", "");
-        String countL = $(".basket_dropdown_quantity").$(byTagName("input")).getValue();
-       // String summ = $(".basket_subtotal_column",1).getText().replaceAll("[^\\d.]", "");
-        String summ = $("#cart-ordertotal").getText().replaceAll("[^\\d.]", "");
+        String priceL = stringPricel.getText().replaceAll("[^\\d.]", "");
+        String countL = stringCountl.$(byTagName("input")).getValue();
+        String summ = stringSumm.getText().replaceAll("[^\\d.]", "");
         float sum = Float.parseFloat(summ);
         int count = Integer.parseInt(countL);
         float price = Float.parseFloat(priceL);

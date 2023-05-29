@@ -88,7 +88,7 @@ public class ZoomerProductSteps extends ZoomerProductpage {
         String price = productPrice.$(".product_new_price").getText().replaceAll("[^\\d.]", "");
         System.out.println(price);
         System.out.println(count);
-        String counts = $(".btn-primary").getText();
+        String counts = countS.getText();
         int i = Integer.parseInt(counts);
         System.out.println(counts);
         Assert.assertTrue(count == i);

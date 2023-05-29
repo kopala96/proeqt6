@@ -14,7 +14,10 @@ public class ZoomerProductpage {
             sortBtn = $(byLinkText("ფასი: ზრდადობით")),
             getSortBtnK = $(byLinkText("ფასი: კლებადობით")),
             productPrice = $(".product_prices", 0),
-            productNewPrice = $(".product_new_price");
+            productNewPrice = $(".product_new_price"),
+            countS =  $(".btn-primary");
+
+
     public ElementsCollection
             countPrdSize = $$(".product_top_div");
 

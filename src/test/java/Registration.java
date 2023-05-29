@@ -21,7 +21,7 @@ public class Registration extends ChromeRunner {
 
     @Test
     @Description("რეგისტრაციის დადებითი მნიშვნელობის შემოწმება")
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.BLOCKER)
     public void RegistrationCheck() {
         registrationPageSteps.ProfileBtn()
                 .GotoRegPage()
@@ -45,7 +45,7 @@ public class Registration extends ChromeRunner {
 
     @Test
     @Description("რეგისტრაციის უარყოფითი მნიშვნელობის შემოწმება")
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.BLOCKER)
     public void RegistrationCheckNegative() {
         registrationPageSteps.ProfileBtn()
                 .GotoRegPage()

@@ -19,7 +19,7 @@ public class Basket extends ChromeRunner {
 
     @Test
     @Description("კალათის შემოწმება")
-    @Severity(SeverityLevel.TRIVIAL)
+    @Severity(SeverityLevel.NORMAL)
     public void basketCheck() {
         basketPageSteps
                 .Search(iphone)
@@ -54,7 +54,6 @@ public class Basket extends ChromeRunner {
                 .IphoneSearch()
                 .AddBasket()
                 .GoToBasket()
-                // .CountAddBtn()
                 .BasketCountPrice();
 
 
